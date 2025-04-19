@@ -1,0 +1,7 @@
+[core]
+    remote = minio-storage
+['remote "minio-storage"']
+    url = s3://car-insurance-dataset
+    endpointurl = http://10.52.52.138:31000
+    access_key_id = testdvctominio
+    secret_access_key = testdvctominio
